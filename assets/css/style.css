@@ -177,7 +177,7 @@ h3,
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 350px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -214,4 +214,78 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/*Media Query*/
+
+@media screen and (max-width: 980px) {
+  #main-container {
+    width: 100%;
+  }
+  
+  #masthead {
+    position: static;
+  }
+
+  .main-section {
+    margin-top: -125px;
+    width: 45%;
+    margin-left: 50px;
+  }
+
+  .sidebar {
+    margin-top: -125px;
+    width: 33%;
+    margin-right: 50px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .container {
+    width: 100%;
+  }
+
+  #logo {
+    margin-left: 15px;
+  }
+
+  nav {
+    margin-right: 15px;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+  
+  .main-section {
+    width: 100%
+  }
+
+  .sidebar {
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+    margin-left: 50px;          
+  }
+  
+}
+
+@media screen and (max-width: 640px) {
+  #main-container {
+    width: 100%;
+  }
+
+  .auth-image {
+    margin-bottom: 15px;
+    width: 450px;
+    height: 390px;
+  }
+
+  .main-section {
+    width: 90%;
+    margin-right: 5px;
+  }
+  
 }
