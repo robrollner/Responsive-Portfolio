@@ -45,6 +45,8 @@ h3 {
 /* header */
 #masthead {
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -77,10 +79,14 @@ nav a {
   line-height: 18px;
   color: #999;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 2px solid #efefef;
 }
 nav a:first-child {
   border-left: 0 none;
+}
+
+nav a:hover {
+  color: #622569;
 }
 /* footer */
 footer {
@@ -115,6 +121,7 @@ h3,
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
+  border: 5px ridge #4aaaa5;
 }
 .social:last-child {
   margin-right: 0;
